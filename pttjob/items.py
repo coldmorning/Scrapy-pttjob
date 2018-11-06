@@ -18,4 +18,6 @@ class PttjobItem(scrapy.Item):
     nrec = scrapy.Field()
     content = scrapy.Field()
     tag = scrapy.Field()
+    ip = scrapy.Field()
+    article_id =scrapy.Field()
     pass
